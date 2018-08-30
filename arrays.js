@@ -43,4 +43,5 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
 
 function destructivelyRemoveElementFromEndOfArray (array) {
   array.pop();
+  return array;
 }
